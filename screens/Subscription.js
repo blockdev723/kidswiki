@@ -5,8 +5,8 @@ import { Base_Url, AppVersion } from '../constants/common';
 import Modal from 'react-native-modal';
 import Toast from 'react-native-simple-toast';
 import DeviceInfo from 'react-native-device-info';
-
-var InAppUtils = require('NativeModules').InAppUtils
+const { InAppUtils } = NativeModules
+// var InAppUtils = require('NativeModules').InAppUtils
 
 
 const identifiers = [

@@ -284,7 +284,7 @@ export class Home extends React.PureComponent {
   getHomeDataFirst = () => {
 
 
-    console.log("888888888", Base_Url)
+    console.log("---------------------    ", Base_Url)
 
     var timzone = DeviceInfo.getTimezone();
     this.setState({ timzone: timzone, count: 0 });
@@ -299,7 +299,7 @@ export class Home extends React.PureComponent {
       },
       body: JSON.stringify({
         childId: global.selectedChild.id,
-        maxRows: '8'
+        maxRows: '4'
       })
 
     })

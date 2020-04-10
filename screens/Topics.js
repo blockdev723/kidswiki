@@ -230,9 +230,9 @@ export class Topics extends Component {
 
 
             <View style={{ width: '100%', flexDirection: 'column' }}>
-              <Text style={{ textTransform: 'uppercase', color: '#527CF3', fontSize: 25, fontFamily: 'BigJohn', marginLeft: 5 }}>Browse Topics</Text>
+              <Text style={{ textTransform: 'uppercase', color: '#665977', fontSize: 25, fontFamily: 'BigJohn', marginLeft: 5 }}>Browse Topics</Text>
 
-              <View style={{ width: '71%', flexDirection: 'row', marginTop: 5, marginLeft: 5, borderBottomColor: '#BDBDBD', borderBottomWidth: 2 }} />
+              <View style={{ width: '71%', flexDirection: 'row', marginTop: 5, marginLeft: 5, borderBottomColor: '#665977', borderBottomWidth: 2 }} />
             </View>
 
             <View style={{ position: 'absolute', right: 30, flexDirection: 'row' }}>

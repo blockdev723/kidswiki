@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import { Platform, StyleSheet, Text, View, Image, ScrollView, TextInput, TouchableOpacity, AsyncStorage , Alert } from 'react-native';
+import { Platform, StyleSheet, Text, View, Image, ScrollView, TextInput, TouchableOpacity, AsyncStorage , Alert, NativeModules } from 'react-native';
 import { Base_Url, AppVersion } from '../constants/common';
 import Spinner from 'react-native-loading-spinner-overlay';
 import DeviceInfo from 'react-native-device-info';
 import Toast from 'react-native-simple-toast';
-
-var InAppUtils = require('NativeModules').InAppUtils
+const { InAppUtils } = NativeModules
+// var InAppUtils = require('NativeModules').InAppUtils
 
 
 const identifiers = [

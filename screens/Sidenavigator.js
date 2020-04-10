@@ -632,37 +632,37 @@ class Sidenavigator extends Component {
           <View style={{ width: '100%', backgroundColor: 'white', borderTopColor: '#DCDCDC', borderTopWidth: 1, marginTop: 20 }} />
 
           <TouchableOpacity style={{ flex: 1, flexDirection: 'column', alignItems: 'center', marginTop: 35 }} onPress={() => this.goNext('Home', '1')}>
-            <Image style={{ height: 39, width: 41 }} source={this.state.selected == '1' ? require('../assets/images/home_selected.png') : require('../assets/images/home.png')} />
-            <Text style={this.state.selected == '1' ? styles.selectNavText : styles.sideNavText}>Home</Text>
+            <Image style={{ height: 39, width: 41 }} source={require('../assets/images/home.png')} />
+            <Text style={this.state.selected == '1' ? styles.selectNavText : styles.sideNavText}>HOME</Text>
           </TouchableOpacity>
 
           <TouchableOpacity style={{ flex: 1, flexDirection: 'column', alignItems: 'center' }} onPress={() => this.goNext('Topics', '2')}>
-            <Image style={{ height: 39, width: 41 }} source={this.state.selected == '2' ? require('../assets/images/topic_selected.png') : require('../assets/images/topics.png')} />
-            <Text style={this.state.selected == '2' ? styles.selectNavText : styles.sideNavText}>Topics</Text>
+            <Image style={{ height: 39, width: 41 }} source={require('../assets/images/topics.png')} />
+            <Text style={this.state.selected == '2' ? styles.selectNavText : styles.sideNavText}>BROWSE</Text>
           </TouchableOpacity>
 
 
           <TouchableOpacity style={{ flex: 1, flexDirection: 'column', alignItems: 'center' }} onPress={() => this.goNext('Favourite', '3')}>
-            <Image style={{ height: 39, width: 41 }} source={this.state.selected == '3' ? require('../assets/images/favourite_selected.png') : require('../assets/images/favourite.png')} />
-            <Text style={this.state.selected == '3' ? styles.selectNavText : styles.sideNavText}>Favorites</Text>
+            <Image style={{ height: 39, width: 41 }} source={require('../assets/images/favourite.png')} />
+            <Text style={this.state.selected == '3' ? styles.selectNavText : styles.sideNavText}>FAVORITES</Text>
           </TouchableOpacity>
 
           <TouchableOpacity style={{ flex: 1, flexDirection: 'column', alignItems: 'center' }} onPress={() => this.goNext('Featuredlist', '4')}>
-            <Image style={{ height: 40, width: 33 }} source={this.state.selected == '4' ? require('../assets/images/lists_selected.png') : require('../assets/images/lists.png')} />
-            <Text style={this.state.selected == '4' ? styles.selectNavText : styles.sideNavText}>Lists</Text>
+            <Image style={{ height: 40, width: 33 }} source={require('../assets/images/lists.png')} />
+            <Text style={this.state.selected == '4' ? styles.selectNavText : styles.sideNavText}>LISTS</Text>
           </TouchableOpacity>
 
 
           <TouchableOpacity style={{ flex: 1, flexDirection: 'column', alignItems: 'center' }} onPress={() => this.goNext('History', '5')}>
-            <Image style={{ height: 38, width: 38 }} source={this.state.selected == '5' ? require('../assets/images/history_selected.png') : require('../assets/images/history.png')} />
-            <Text style={this.state.selected == '5' ? styles.selectNavText : styles.sideNavText}>History</Text>
+            <Image style={{ height: 38, width: 38 }} source={require('../assets/images/history.png')} />
+            <Text style={this.state.selected == '5' ? styles.selectNavText : styles.sideNavText}>HISTORY</Text>
           </TouchableOpacity>
 
 
 
           <TouchableOpacity style={{ flex: 1, flexDirection: 'column', alignItems: 'center' }} onPress={() => { this.setModalVisible(true) }}>
-            <Image style={{ height: 39, width: 39 }} source={this.state.selected == '6' ? require('../assets/images/settings_selected.png') : require('../assets/images/settings.png')} />
-            <Text style={this.state.selected == '6' ? styles.selectNavText : styles.sideNavText}>Settings</Text>
+            <Image style={{ height: 39, width: 39 }} source={require('../assets/images/settings.png')} />
+            <Text style={this.state.selected == '6' ? styles.selectNavText : styles.sideNavText}>SETTINGS</Text>
           </TouchableOpacity>
 
          
@@ -1585,13 +1585,13 @@ const styles = StyleSheet.create({
   },
   sideNavText: {
     marginTop: 5,
-    color: '#9A9A9A',
+    color: '#C2C2C2',
     fontSize: 12,
     fontFamily: 'BigJohn',
   },
   selectNavText: {
     marginTop: 5,
-    color: '#527CF3',
+    color: '#F962A1',
     fontSize: 12,
     fontFamily: 'BigJohn',
 

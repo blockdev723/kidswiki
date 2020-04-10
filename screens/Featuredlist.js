@@ -538,8 +538,8 @@ export class Featuredlist extends Component {
 
 
             <View style={{ width: '100%', flexDirection: 'column' }}>
-              <Text style={{ textTransform: 'uppercase', color: '#527CF3', fontSize: 25, fontFamily: 'BigJohn', marginLeft: 5 }}>My Lists</Text>
-              <View style={{ width: '71%', flexDirection: 'row', marginTop: 5, marginLeft: 5, borderBottomColor: '#BDBDBD', borderBottomWidth: 2 }} />
+              <Text style={{ textTransform: 'uppercase', color: '#665977', fontSize: 25, fontFamily: 'BigJohn', marginLeft: 5 }}>My Lists</Text>
+              <View style={{ width: '71%', flexDirection: 'row', marginTop: 5, marginLeft: 5, borderBottomColor: '#665977', borderBottomWidth: 2 }} />
 
             </View>
 

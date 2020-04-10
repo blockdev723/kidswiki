@@ -179,7 +179,7 @@ export default class VerticalTabBarTextExample extends React.Component<
                           <Image style={route.style} source={require('../assets/images/settings.png')} />
               }
               <Text style={global.currenttt == index ? styles.selectNavText : styles.sideNavText}>
-                {route.title}
+                {route.title}              
               </Text>
             </View>
           </TouchableOpacity>
@@ -276,13 +276,13 @@ const styles = StyleSheet.create({
   },
   sideNavText: {
     marginTop: 5,
-    color: '#9A9A9A',
+    color: '#C2C2C2',
     fontSize: 10,
     fontFamily: 'BigJohn',
   },
   selectNavText: {
     marginTop: 5,
-    color: '#527CF3',
+    color: '#F962A1',
     fontSize: 10,
     fontFamily: 'BigJohn',
 

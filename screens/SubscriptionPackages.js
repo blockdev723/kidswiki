@@ -18,7 +18,8 @@ import { Text } from 'native-base';
 const win = Dimensions.get('window');
 import LinearGradient from 'react-native-linear-gradient';
 import Toast from 'react-native-simple-toast';
-var InAppUtils = require('NativeModules').InAppUtils
+const { InAppUtils } = NativeModules
+// var InAppUtils = require('NativeModules').InAppUtils
 import Spinner from 'react-native-loading-spinner-overlay';
 const identifiers =  ['com.app.kidswiki.monthlySub']
 
