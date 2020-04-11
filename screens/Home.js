@@ -1368,7 +1368,7 @@ export class Home extends React.PureComponent {
 
 
     return (
-      <ImageBackground source={require('../assets/images/new_bg.png')} style={{ width: '100%', height: '100%', marginTop: 60, position: 'relative' }}>
+      <ImageBackground source={require('../assets/images/new_bg.png')} style={{ width: '100%', height: '100%', paddingTop: 60, position: 'relative' }}>
         <TouchableOpacity activeOpacity={1} style={{ width: '100%', height: '100%', alignItems: 'center', justifyContent: 'center' }} onPress={(jj) => this.setState({ popoverShow: false })}>
 
 
